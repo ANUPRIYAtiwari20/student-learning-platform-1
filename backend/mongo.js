@@ -6,7 +6,7 @@ mongoose
 
 const login_schema = new mongoose.Schema({
     username: String,
-    password: String,
+    password: String
 });
 
 
@@ -14,5 +14,5 @@ const login_schema = new mongoose.Schema({
 const login = mongoose.model('login', login_schema)
 
 module.exports = {
-    login
+    login,
 }

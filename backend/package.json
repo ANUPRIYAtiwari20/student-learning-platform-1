@@ -1,25 +1,11 @@
 {
-  "name": "smartlearning",
-  "version": "1.0.0",
-  "description": "Smart Education: a concept that describe learning in a digital age and enables learners to learn more efficiently since tradition education lacks flexibility and personalized learning.  make readme.md with icons",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SubratSinghRathore/hackathon.git"
-  },
-  "author": "subrat singh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SubratSinghRathore/hackathon/issues"
-  },
-  "homepage": "https://github.com/SubratSinghRathore/hackathon#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.10.1"
+    "mongoose": "^8.9.2"
   }
 }

@@ -45,6 +45,7 @@ html::-webkit-scrollbar-thumb{
 body{
    background-color: var(--light-bg);
    padding-left: 30rem;
+   position: relative;
 }
 
 body.dark{
@@ -1373,4 +1374,14 @@ section{
       height: 25rem;
    }
 
+}
+
+
+.chat_bot_img{
+   width: 100px;
+   position: fixed;
+   z-index: 5000;
+   bottom: 5vh;
+   right: 5vw;
+   border-radius: 50px;
 }
